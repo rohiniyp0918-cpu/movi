@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Movie Recommendation Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🎬 AI Movie Recommendation Website</h1>
+    <p>Search a movie & get AI based recommendations (TMDB Dataset)</p>
+  </header>
+
+  <div class="container">
+    <input type="text" id="movieInput" placeholder="Enter movie name...">
+    <button onclick="getRecommendations()">Recommend</button>
+
+    <h2 id="resultTitle"></h2>
+    <div id="recommendations" class="movie-list"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
